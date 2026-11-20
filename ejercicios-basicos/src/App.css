@@ -1,0 +1,31 @@
+.tarjetaProducto{
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 16px;
+  width: 200px;
+  font-family: system-ui, sans-serif;
+  color: #0f172a;
+  background-color: #ffffff;
+}
+.sinStock{
+  color: grey;
+}
+.boton{
+  background-color: #e2f1f8;
+  border: 1px solid #7ba4b5;
+  color: #0f172a;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.boton-inhabilitado{
+  background-color: #70707081;
+}
+.respuesta-mostrada{
+  width: 35rem;
+  padding: 1rem;
+  border: 2px solid rgb(145, 145, 145);
+  border-radius: 1rem;
+}
