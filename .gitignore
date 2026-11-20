@@ -1,0 +1,44 @@
+# Dependencias (no se entregan)
+node_modules
+
+# Variables de entorno (se usa .env.example)
+.env
+.env.*
+!.env.example
+
+# Python (backend)
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Build
+dist
+dist-ssr
+*.local
+
+# Herramientas de IA / editor
+.atl/
+.vscode/
+.idea/
+.claude/
+.codegraph/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Lockfile suelto de la raíz (cada proyecto tiene el suyo)
+/package-lock.json
