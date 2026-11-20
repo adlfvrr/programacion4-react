@@ -1,0 +1,14 @@
+fastapi
+sqlmodel
+uvicorn
+pydantic
+email-validator
+PyJWT
+passlib
+python-dotenv
+bcrypt<4.1
+httpx
+pytest
+pytest-cov
+ruff
+pyright
